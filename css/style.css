@@ -6,11 +6,15 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+*{
+    font-family: 'Nunito', sans-serif;
+}
 h2 {
    color: rgba(128, 0, 128);
    font-family: 'Pacifico',cursive;
    font-weight: 300;
 }
+
 
 /*
 fashion red:
