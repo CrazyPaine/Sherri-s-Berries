@@ -8,13 +8,21 @@
 /*******************************************/
 *{
     font-family: 'Nunito', sans-serif;
+    list-style: none;
 }
-h2 {
+.Sherri {
    color: rgba(128, 0, 128);
    font-family: 'Pacifico',cursive;
    font-weight: 300;
+   align-self: center;
+   font-size: 45px;
 }
 
+.navBar{
+    display:flex;
+    flex-direction: row;
+    align-content: space-around;
+}
 
 /*
 fashion red:
