@@ -14,11 +14,14 @@
    color: rgba(128, 0, 128);
    font-family: 'Pacifico',cursive;
    font-weight: 300;
-   align-self: center;
+   align-self: stretch;
    font-size: 45px;
 }
-
 .navBar{
+    border: 34px solid rgb(248,212,7)
+}
+
+.container{
     display:flex;
     flex-direction: row;
     align-content: space-around;
