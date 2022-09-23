@@ -17,17 +17,83 @@
    color: rgba(128, 0, 128);
    font-family: 'Pacifico',cursive;
    font-weight: 300;
-   align-self: stretch;
-   font-size: 45px;
+   font-size: 40px;
+   flex-grow: 3;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(212, 24, 29, 0.3), rgba(212, 24, 29, 0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
 }
 .navBar{
-    border: 34px solid rgb(248,212,7)
+    border: 5px solid rgb(248,212,7);
+    background-color: rgb(212, 214, 176);
+    padding: 20px 8%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .container{
     display:flex;
     flex-direction: row;
-    align-content: space-around;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 5px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+li a {
+    display: block;
+}
+
+
+li:last-child {
+    border-right: none;
+}
+
+/* main{
+    border: 10px solid rgb(115, 28, 28); 
+} */
+
+.twoOfEm{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.firstSection{
+    border: 10px solid rgb(16, 133, 188);
+    height: 50%;
+    width: 50%;
+    padding: 5px;
+    box-align: center;
+}
+
+.secondSection{
+    border: 10px solid rgb(22,123,23);
+    height: 50%;
+    width:50%;
+    padding: 5px;
+    box-align: center;
 }
 
 /*
@@ -41,13 +107,20 @@ Indian Orange Color:
 RGB (255, 119, 34)
 */
 
-
-
-
-img {
-    display: block;
-    margin: 0 auto;
+.footerEnd {
+    border: 2px solid red;
+    display: flex;
 }
+
+.sectionFooter{
+    border: 2px solid purple;
+    padding: 20px;
+}
+
+.socialApps{
+    border: 2px solid yellow;
+}
+
 
 
 /******************************************
